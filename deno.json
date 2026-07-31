@@ -1,5 +1,8 @@
 {
-    "tasks": {
-      "start": "deno run --allow-net --allow-read src/index.ts"
-    }
+  "tasks": {
+    "start": "deno run --allow-net --allow-read src/index.ts"
+  },
+  "deploy": {
+    "entrypoint": "src/index.ts"
+  }
 }

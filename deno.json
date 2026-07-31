@@ -1,8 +1,5 @@
 {
-  "tasks": {
-    "start": "deno run --allow-net --allow-read src/index.ts"
-  },
-  "deploy": {
-    "entrypoint": "src/index.ts"
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
   }
 }

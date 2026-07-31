@@ -1,5 +1,6 @@
 {
   "imports": {
     "@std/assert": "jsr:@std/assert@1"
-  }
+  },
+  "entrypoint": "./deno_index.ts"
 }
